@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <form action="" id="myform">
+       <select name="" id"city">
+          <option value="tp">台北</option>
+          <option value="ty">桃園</option>
+       </select>
+   </form>
+ <script>
+    var a = myform.city.options[0].textContent; 
+    var b = myform.city.options[0].value;
+    myform.city.options[2] = new Option("高雄","kh");
+    console.log(b);
+ </script>
+</body>
+</html>
